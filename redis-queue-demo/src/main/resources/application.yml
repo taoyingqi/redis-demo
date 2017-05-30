@@ -1,0 +1,12 @@
+spring:
+  redis:
+    database: 3
+    host: localhost
+    password:
+    port: 6379
+    pool.max-idle: 8
+    pool.min-idle: 0
+    pool.max-active: 8
+    pool.max-wait: -1
+    #sentinel.master:
+    #sentinel.nodes:
