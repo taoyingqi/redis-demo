@@ -1,7 +1,7 @@
 #redis-demo
-1. pub-sub-demo
-2. pub-sub-spring-demo
-3. redis-queue-demo
+1. pub-sub-demo _基于jedis实现发布/订阅_
+2. pub-sub-spring-demo _基于spring-data-redis实现发布/订阅_
+3. redis-queue-demo _基于spring-data-redis实现redis消息队列_
 
 
 ##3. redis-queue-demo，Spring-data-redis: 分布式队列
