@@ -4,14 +4,14 @@
 3. redis-queue-demo
 
 
-##3. redis-queue-demo£¬Spring-data-redis: ·Ö²¼Ê½¶ÓÁÐ
+##3. redis-queue-demoï¼ŒSpring-data-redis: åˆ†å¸ƒå¼é˜Ÿåˆ—
 
 
-RedisÖÐlistÊý¾Ý½á¹¹£¬¾ßÓÐ¡°Ë«¶Ë¶ÓÁÐ¡±µÄÌØÐÔ£¬Í¬Ê±redis¾ßÓÐ³Ö¾ÃÊý¾ÝµÄÄÜÁ¦£¬Òò´ËredisÊµÏÖ·Ö²¼Ê½¶ÓÁÐÊÇ·Ç³£°²È«¿É¿¿µÄ¡£ËüÀàËÆÓÚJMSÖÐµÄ¡°Queue¡±£¬Ö»²»¹ý¹¦ÄÜºÍ¿É¿¿ÐÔ(ÊÂÎñÐÔ)²¢Ã»ÓÐJMSÑÏ¸ñ¡£
+Redisä¸­listæ•°æ®ç»“æž„ï¼Œå…·æœ‰â€œåŒç«¯é˜Ÿåˆ—â€çš„ç‰¹æ€§ï¼ŒåŒæ—¶rediså…·æœ‰æŒä¹…æ•°æ®çš„èƒ½åŠ›ï¼Œå› æ­¤rediså®žçŽ°åˆ†å¸ƒå¼é˜Ÿåˆ—æ˜¯éžå¸¸å®‰å…¨å¯é çš„ã€‚å®ƒç±»ä¼¼äºŽJMSä¸­çš„â€œQueueâ€ï¼Œåªä¸è¿‡åŠŸèƒ½å’Œå¯é æ€§(äº‹åŠ¡æ€§)å¹¶æ²¡æœ‰JMSä¸¥æ ¼ã€‚
 
-RedisÖÐµÄ¶ÓÁÐ×èÈûÊ±£¬Õû¸öconnection¶¼ÎÞ·¨¼ÌÐø½øÐÐÆäËû²Ù×÷£¬Òò´ËÔÚ»ùÓÚÁ¬½Ó³ØÉè¼ÆÊÇÐèÒª×¢Òâ¡£
+Redisä¸­çš„é˜Ÿåˆ—é˜»å¡žæ—¶ï¼Œæ•´ä¸ªconnectionéƒ½æ— æ³•ç»§ç»­è¿›è¡Œå…¶ä»–æ“ä½œï¼Œå› æ­¤åœ¨åŸºäºŽè¿žæŽ¥æ± è®¾è®¡æ˜¯éœ€è¦æ³¨æ„ã€‚
 
-ÎÒÃÇÍ¨¹ýspring-data-redis£¬À´ÊµÏÖ¡°Í¬²½¶ÓÁÐ¡±£¬Éè¼Æ·ç¸ñÀàËÆÓëJMS¡£
+æˆ‘ä»¬é€šè¿‡spring-data-redisï¼Œæ¥å®žçŽ°â€œåŒæ­¥é˜Ÿåˆ—â€ï¼Œè®¾è®¡é£Žæ ¼ç±»ä¼¼ä¸ŽJMSã€‚
 
 ```
 <parent>
@@ -24,3 +24,9 @@ RedisÖÐµÄ¶ÓÁÐ×èÈûÊ±£¬Õû¸öconnection¶¼ÎÞ·¨¼ÌÐø½øÐÐÆäËû²Ù×÷£¬Òò´ËÔÚ»ùÓÚÁ¬½Ó³ØÉè¼ÆÊ
 	<artifactId>spring-boot-starter-data-redis</artifactId>
 </dependency>
 ```
+
+#redisä»‹ç»
+* [æ“ä½œ](doc/Redisæ“ä½œ.md)
+* [å‘å¸ƒ/è®¢é˜…](doc/Rediså‘å¸ƒä¸Žè®¢é˜…ä¿¡æ¯.md)
+* [æŒä¹…åŒ–](doc/RedisæŒä¹…åŒ–.md)
+* [è™šæ‹Ÿå†…å­˜VM](doc/Redisè™šæ‹Ÿå†…å­˜.md)
