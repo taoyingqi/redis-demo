@@ -1,4 +1,10 @@
-#Spring-data-redis: ·Ö²¼Ê½¶ÓÁĞ
+#redis-demo
+1. pub-sub-demo
+2. pub-sub-spring-demo
+3. redis-queue-demo
+
+
+##3. redis-queue-demo£¬Spring-data-redis: ·Ö²¼Ê½¶ÓÁĞ
 
 
 RedisÖĞlistÊı¾İ½á¹¹£¬¾ßÓĞ¡°Ë«¶Ë¶ÓÁĞ¡±µÄÌØĞÔ£¬Í¬Ê±redis¾ßÓĞ³Ö¾ÃÊı¾İµÄÄÜÁ¦£¬Òò´ËredisÊµÏÖ·Ö²¼Ê½¶ÓÁĞÊÇ·Ç³£°²È«¿É¿¿µÄ¡£ËüÀàËÆÓÚJMSÖĞµÄ¡°Queue¡±£¬Ö»²»¹ı¹¦ÄÜºÍ¿É¿¿ĞÔ(ÊÂÎñĞÔ)²¢Ã»ÓĞJMSÑÏ¸ñ¡£
@@ -13,4 +19,8 @@ RedisÖĞµÄ¶ÓÁĞ×èÈûÊ±£¬Õû¸öconnection¶¼ÎŞ·¨¼ÌĞø½øĞĞÆäËû²Ù×÷£¬Òò´ËÔÚ»ùÓÚÁ¬½Ó³ØÉè¼ÆÊ
 	<artifactId>spring-boot-starter-parent</artifactId>
 	<version>1.5.3.RELEASE</version>
 </parent>
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-data-redis</artifactId>
+</dependency>
 ```
