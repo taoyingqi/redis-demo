@@ -1,5 +1,7 @@
 package com.demo;
 
+import com.alibaba.fastjson.JSONObject;
+import com.demo.message.Body;
 import com.demo.message.MessageConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -14,7 +16,10 @@ public class PubSubMain {
 
     public  void execute() {
         String channel = "pubsub:queue";
-        redisTemplate.convertAndSend(channel, "from testData");
+        Body body = new Body();
+        body.setId(1000L);
+        body.setName("weiwei");
+        redisTemplate.convertAndSend(channel, JSONObject.toJSONString(body));
     }
     public static void main(String[] args) {
         ApplicationContext applicationContext   = new AnnotationConfigApplicationContext(MessageConfig.class);
