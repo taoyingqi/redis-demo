@@ -30,3 +30,4 @@ Redis中的队列阻塞时，整个connection都无法继续进行其他操作�
 * [发布/订阅](doc/Redis发布与订阅信息.md)
 * [持久化](doc/Redis持久化.md)
 * [虚拟内存VM](doc/Redis虚拟内存.md)
+* [Codis集群](doc/Redis集群方案-Codis.md)
